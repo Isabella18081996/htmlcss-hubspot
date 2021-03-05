@@ -1,0 +1,162 @@
+/* GENERALE */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float:right;
+}
+
+.body{
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1200px;
+}
+
+.w-50{
+  width: 50%;
+}
+
+/* BARRA DI NAVIGAZIONE FISSA IN ALTO */
+
+.fix{
+  background-color: #F4F9FD;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #425768;
+  position: fixed;
+ /*  display: inline-block; */
+}
+
+nav{
+  width: 80%;
+  margin: auto;
+  height: 75px;
+}
+
+.fa-chevron-down{
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+.left .fa-chevron-down{
+  border-right: 1px solid #899397;
+  padding-right: 20px;
+  padding-left: 5px;
+  margin-right: 20px;
+}
+
+.left{
+  line-height: 75px;
+  color: #425768;
+}
+
+.right{
+  line-height: 75px;
+  color: #425768;
+}
+
+
+.btn-white{
+  background-color: #FAFCFE;
+  border: 1px solid #FE7C60;
+  border-radius: 10%;
+  padding: 10px 10px;
+  color: #FE7C60;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.btn-red{
+  background-color: #FE775A;
+  border: 1px solid #FFFCFB;
+  border-radius: 10%;
+  padding: 10px 10px;
+  color: #FFFCFB;
+  margin-left: 10px;
+}
+
+.menu{
+  width: 80%;
+  margin: auto;
+  height: 100px;
+  line-height: 100px;
+}
+
+.logo{
+  width: 30%;
+}
+
+.menu-lista{
+  width: 70%;
+  text-align: right;
+}
+
+.menu-lista li{
+  display: inline;
+  text-decoration: none;
+  padding-left: 15px;
+  color: #425768;
+}
+
+
+/* JUMBOTRON */
+
+.jumbotron-container{
+  width: 100%;
+  height: 695px;
+  background-image: url(img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+.jumbotron{
+  position: relative;
+  height: 470px;
+  width: 80%;
+  margin: auto;
+}
+
+.jumbotron-text{
+  position: absolute;
+ /*  top:50%;
+  transform: translateY(-50%); */
+}
+
+.jumbotron-text h1{
+  color: #33475B;
+  font-size: 350%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.jumbotron-text .btn-red{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+}
+
+.bar-jumbotron{
+  background-color: #AFEBE4;
+  width: 100%;
+  height: 10px;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+  position: absolute;
+  padding-top: 80px;
+  margin-top: 142px;
+}
