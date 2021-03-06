@@ -326,11 +326,14 @@ margin-right: 5%;
 .col-right img{
   width: 28%;
 }
+
 .col p{
-  padding-top:40px;
-  padding-bottom: 50px;
-  padding-left: 10px;
-  padding-right:10px;
+  margin-top:40px;
+  margin-bottom: 50px;
+  padding-left: 35px;
+  padding-right:35px;
+  font-size: 12px;
+  line-height: 20px;
 }
 
 .col .row{
