@@ -541,3 +541,126 @@ color: #FE775A;
   height: 260px;
   margin-left: 200px;
 }
+
+/* FOOTER */
+
+footer{
+  background-color: #32495B;
+  width: 100%;
+}
+
+.footer-container{
+  width: 75%;
+  margin: auto;
+
+}
+
+.colonna{
+  width: 25%;
+  color: white;
+  margin-top: 15px;
+}
+
+.colonna h5{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.colonna li{
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.colonna a{
+  text-decoration: none;
+  color: white;
+}
+
+.colonna a:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.colonna-4 .btn-white{
+  color: #32495B;
+  margin-top: 15px;
+  border-color: #32495B;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.lista-loghi ul li{
+  display: inline;
+  padding-right: 5px;
+}
+
+
+.lista-lingue{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lista-lingue ul li{
+  display: inline;
+  padding-right: 5px;
+  font-size: 15px;
+
+}
+
+.lista-lingue a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.lista-lingue a:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  
+}
+
+hr{
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.barra-in-basso{
+  width: 75%;
+  margin: auto;
+}
+
+.barra-in-basso-sinistra{
+  width: 50%;
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.barra-in-basso-destra{
+  width: 50%;
+  color: white;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.barra-in-basso-destra a{
+  text-decoration: none;
+  color: white;
+}
+
+.barra-in-basso-destra a:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.barra-in-basso-destra ul li{
+  display: inline;
+}
